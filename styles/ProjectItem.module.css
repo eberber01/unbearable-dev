@@ -1,0 +1,27 @@
+.container {
+	padding: 5% 20% 20% 5%;
+	margin: 0% 20% 0% 0%;
+	overflow-wrap: break-word;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	margin: 2% 0%;
+	width: fit-content;
+	font-size: 1.8rem;
+}
+
+.text {
+	font-size: 1.4rem;
+	color: #CBCBCB;
+}
+
+@media only screen and (max-width: 750px) {
+	.container {
+		margin: 0%;
+		align-items: center;
+		text-align: center;
+		padding: 10% 20%;
+	}
+}

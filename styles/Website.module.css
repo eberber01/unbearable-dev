@@ -1,35 +1,4 @@
-
-.background{
-    background-color: #2f333f;
-    height: 100vh;
-}
-
-.intro{
-    margin: 10% 20%;
-    padding: 5% ;
-    /* border-radius: 20px;
-    box-shadow:5px 5px  10px 2px rgba(0, 0, 0, 0.473); */
-    display: flex;
- 
-    justify-content: center;
-    align-items: center;
-    gap: 10%
-}
-.introabout{
-
-    flex: 1;
-
-}
-.introtitle{
-    font-size: 5rem;
-}
-.introtext{
-    font-size: 1.5rem;
-}
-
-#matsumoto{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%;
+.background {
+	background-color: #2f333f;
+	height: 100%;
 }

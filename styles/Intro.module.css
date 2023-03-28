@@ -1,0 +1,53 @@
+#matsumoto {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.intro {
+	margin: 0% 10%;
+	padding: 20% 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10%;
+}
+
+.introabout {
+	flex: 1;
+}
+
+.introtitle {
+	font-size: 5rem;
+}
+
+.introtext {
+	font-size: 1.5rem;
+    color: #CBCBCB;
+}
+
+@media only screen and (max-width: 1050px) {
+	.intro {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	#matsumoto {
+		width: 250px;
+		height: 250px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	#matsumoto {
+		width: 150px;
+		height: 150px;
+	}
+	.introtitle {
+		font-size: 2.2rem;
+	}
+	.introtext {
+		font-size: 1rem;
+	}
+}

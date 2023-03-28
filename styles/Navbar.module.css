@@ -1,23 +1,37 @@
-
 .navlist {
-    display: flex;
-    flex: 3;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    gap: 10%;
-}
-.navitem{
+	display: flex;
+	flex: 3;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	gap: 10%;
 }
 
-.title{
-    flex: 3;
-    font-size: 2.5rem;
+.title {
+	flex: 3;
+	font-size: 2.5rem;
 }
 
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 2% 10%;
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 2% 10%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #2f333f;
+}
+
+.githublogo {
+	height: 2.5rem;
+}
+
+@media only screen and (max-width: 750px) {
+	.navbar {
+		flex-direction: column;
+	}
+	.githublogo {
+		height: 2rem;
+	}
 }
