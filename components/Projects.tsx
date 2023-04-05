@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem";
 
 export default function Projects() {
 	const SNAKE_URL = "https://eberber01.github.io/snake/";
-	const QUILTIFY_URL = "https://eberber01.github.io/Quiltify/";
+	const QUILTIFY_URL = "https://main.d3ftg3vbkuts3x.amplifyapp.com/"
 
 	return (
 		<div className={styles.container} id="projects">
